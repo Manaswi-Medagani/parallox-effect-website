@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    background-image: url("nature.jpeg");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(54, 48, 48, 0.7);
+    color: white;
+    text-align: center;
+}
+
+.header-box {
+    font-size: 2.5em;
+}
+
+{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+text {
+    margin: 0 15px;
+}
+
+.header-text {
+    text-decoration: none;
+    color: white;
+}
+
+.content {
+    display: flex;
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.content-box {
+    width: 20%;
+}
+
+.text-box {
+    list-style: none;
+}
+
+table {
+    margin: 10px 0;
+}
+.a{
+    text-decoration: none;
+    color: #333;
+}
+
+textarea {
+    width: 80%;
+}
+
+article {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.h {
+    border: 1px solid #ddd;
+}
+
+ a{
+    padding: 10px;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+</style>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>MyBrand</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Services</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+    </div>
+    <section class="content">
+        <h2>Large Data Table</h2>
+        <table>
+            <tr>
+                <th>Item Name</th>
+                <th>Category</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>Laptop</td>
+                <td>Electronics</td>
+                <td>$1200</td>
+                <td>50</td>
+                <td>In Stock</td>
+            </tr>
+            <tr>
+                <td>Headphones</td>
+                <td>Accessories</td>
+                <td>$150</td>
+                <td>200</td>
+                <td>In Stock</td>
+            </tr>
+            <tr>
+                <td>Smartphone</td>
+                <td>Electronics</td>
+                <td>$500</td>
+                <td>150</td>
+                <td>Out of Stock</td>
+            </tr>
+        </table>
+    </section>
+
+</body>
+</html>
